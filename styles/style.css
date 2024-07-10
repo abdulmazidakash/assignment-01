@@ -72,3 +72,143 @@
     color: rgb(255, 255, 255);
     text-decoration: none;
 }
+
+/* why web development grand container styles starts here  */
+.why-web-dev-grand-contaienr{
+    width: 1140px;
+    height: 1395px;
+    /* border: 2px solid; */
+    margin: 0 auto;
+    margin-top: 100px;
+
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+
+    display: flex;
+}
+.why-web-dev-content{
+    width: 946px;
+    height: 1235px;
+    /* border: 2px solid; */
+    margin: 0 auto;
+
+    margin-top: 90px;
+
+}
+.why-web-dev-heading{
+    width: 90%;
+    height: 100px;
+    text-align: center;
+    margin: 0 auto;
+
+    margin-bottom: 120px;
+    
+}
+.why-web-dev-heading h2{
+    width: 90%;
+    margin-bottom: 30px;
+    /* margin-top: 40px; */
+
+ 
+    
+}
+.change-the-world-container{
+    width: 850px;
+    height: 240px;
+    /* border: 2px solid; */
+    margin: 0 auto;
+
+    margin-bottom: 110px;
+    display: flex;
+    gap: 100px;
+
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+
+    
+}
+.modern-web-system-container{
+    width: 850px;
+    height: 240px;
+    /* border: 2px solid; */
+    margin: 0 auto;
+
+    margin-bottom: 110px;
+    display: flex;
+    gap: 100px;
+    
+    border-radius: 16px;
+    background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+}
+.modern-web-text p{
+    margin-top: 33px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+}
+.modern-web-text {
+   width: 55%;
+}
+.modern-web-text h4{
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 18px;
+    font-weight: 700;
+}
+.modern-web-text button{
+    width: 150px;
+    height: 48px;
+    margin-top: 30px;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.change-the-world-container-second{
+    width: 850px;
+    height: 240px;
+    /* border: 2px solid; */
+    margin: 0 auto;
+
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+}
+.change-the-world-text{
+    width: 50%;
+}
+.change-the-world-text p{
+    margin-top: 33px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+}
+.change-the-world-text h4{
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 700;
+}
+.change-the-world-text button{
+    width: 150px;
+    height: 48px;
+    margin-top: 20px;
+ 
+    box-sizing: border-box;
+    /* border: 1px solid rgb(13, 19, 33); */
+    opacity: 0.7;
+
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 15px;
+    font-weight: 600;
+}
+.change-the-world-image{
+    width: 40%;
+}
