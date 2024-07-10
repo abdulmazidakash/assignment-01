@@ -351,3 +351,86 @@
     border-radius: 16px;
     background: rgba(255, 223, 0, 0.05);
 }
+
+/* support-section-container styles starts here  */
+.support-section-container{
+    width: 1140px;
+    height: 313px;
+    border: 2px solid;
+    margin: 0 auto;
+
+    background-image: url('../images/handshake.jpg');
+    border-radius: 16px;
+    background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),url(Email);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+    opacity: 1;
+    background-color: #00000033;
+    background-blend-mode: overlay;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    color: white;
+    /* padding: 64px 48px 64px 48px; */
+
+    margin-top: 50px;
+    
+
+ 
+}
+.support-section-container img{
+    width: 100%;
+    height: 100%;
+
+
+}
+.support-section-container h3{
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 28px;
+    font-weight: 700;
+
+}
+.support-section-container p{
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 14px;
+    font-weight: 400;
+
+    margin-bottom: 50px;
+}
+.support-section-container input{
+    width: 548px;
+    /* height: 37px; */
+    padding: 19px 20px 19px 20px;
+
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+
+    color: rgba(13, 19, 33, 0.4);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+.support-section-container button{
+    width: 120px;
+    height: 57px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    border: none;
+
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 15px;
+    font-weight: 600;
+
+}
