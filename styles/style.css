@@ -269,3 +269,85 @@
    
 
 }
+
+/* my-current-target-container styles starts here  */
+
+.my-current-target-container{
+    /* border: 2px solid; */
+    width: 1140px;
+    height: 550px;
+    margin: 0 auto;
+    margin-top: 100px;
+
+}
+
+.current-target-heading {
+    width: 70%;
+    margin: 0 auto;
+    height: 113px;
+
+    text-align: center; 
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+    margin-bottom: 60px;
+
+
+}
+.current-target-heading h3{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 28px;
+    font-weight: 800;
+
+
+}
+.current-target-heading p {
+    opacity: 0.7;
+
+
+}
+.current-target-content-container{
+    display: flex;
+    margin-top: 500px;
+    width: 80%;
+    margin: 0 auto;
+    /* padding: 40px 30px 40px 30px; */
+    height: 300px;
+ 
+    gap: 100px;
+
+
+}
+.current-target-content{
+
+    width: 400px;
+    /* border: 2px solid; */
+    padding: 8px 20px;
+    height: 300px;
+    /* display: block; */
+    /* margin-bottom: 200px; */
+
+    display: flexbox;
+    margin-top: 10px;
+
+}
+
+
+#first{
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+
+    
+
+}
+#second{
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+
+}
+#third{
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+}
